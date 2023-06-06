@@ -58,7 +58,7 @@ let render = () => {
           <label for="d-${obj.id}">${obj.optionD}</label>
         </div>
         <div>
-          <h2 id="answer-${obj.id}"  class="hide">Answer : <span>${obj.ans}</span> </h2>
+          <h2 id="answer-${obj.id}" class="hide">Answer : <span>${obj.ans}</span> </h2>
         </div>
       </div>
   `;
@@ -120,7 +120,7 @@ let render = () => {
     }
   });
 
-  tryBtn.addEventListener("click", () => {
+  tryAgain.addEventListener("click", () => {
     location.reload();
   });
 };
